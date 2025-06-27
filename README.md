@@ -124,18 +124,3 @@ A aplicação expõe endpoints do Actuator para monitoramento:
 * *Métricas para Prometheus:* http://localhost:8080/actuator/prometheus
 
 Essas métricas podem ser coletadas por um servidor Prometheus e visualizadas em dashboards no Grafana.
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 👨‍💻 Autor
-
-Feito com ❤️ por *[Seu Nome Aqui]*.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-linkedin/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario/)
