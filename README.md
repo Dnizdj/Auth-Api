@@ -68,13 +68,6 @@ Você pode executar a API de duas maneiras:
 
 Esta é a forma mais simples e não requer instalação do Maven (ele baixa a versão correta automaticamente).
 
-bash
-# No Linux/macOS
-./mvnw spring-boot:run
-
-# No Windows
-mvnw.cmd spring-boot:run
-
 
 #### Método B: Via Docker
 
@@ -98,10 +91,6 @@ Após iniciar, a API estará disponível em http://localhost:8080.
 ---
 
 ## 📖 Documentação da API (Endpoints)
-
-A documentação completa e interativa da API está disponível no Swagger UI. Com a aplicação rodando, acesse:
-
-➡️ *[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)*
 
 Para testar os endpoints protegidos, primeiro utilize a rota POST /auth/login para obter um token. Em seguida, clique no botão *"Authorize"* no topo da página do Swagger e cole o token no formato Bearer <seu_token>.
 
